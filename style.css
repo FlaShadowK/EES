@@ -1,10 +1,14 @@
+html {
+  overflow-x: hidden;
+}
 body {
   background-color: aliceblue;
   height: 100%;
+  overflow-x: hidden;
 }
 
 h1 {
-  margin-top: 0px;
+  margin-top: 1%;
 }
 
 #slideshow {
@@ -22,19 +26,23 @@ h1 {
   padding-right: 17.50%;
 }
 
-#content > * {
-  margin-left: 1%;
-  margin-right: 1%;
+#list > h1, #fb > h1, #map > h1 {
+  text-align: center;
 }
 
+/*#content > * {*/
+/*  margin-left: 1%;*/
+/*  margin-right: 1%;*/
+/*}*/
+
 #map {
-  float:left;
-  width: 28%;
+  /*float:left;*/
+  /*width: 28%;*/
 }
 
 #fb {
-  width: 28%;
-  float: left;
+  /*width: 28%;*/
+  /*float: left;*/
 }
 
 /* #fb > iframe {
